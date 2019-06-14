@@ -1,0 +1,27 @@
+{
+  "name": "freighthub-coding-challenge-master",
+  "version": "1.0.0",
+  "description": "Repository with back-end coding challenge from Freighthub",
+  "main": "challenge.js",
+  "scripts": {
+    "start": "ts-node src/challenge.ts",
+    "test": "jest",
+    "watch:test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.5.5",
+    "core-js": "3.1.3"
+  },
+  "devDependencies": {
+    "@types/bluebird": "3.5.27",
+    "@types/core-js": "2.5.0",
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.7",
+    "jest": "24.8.0",
+    "ts-jest": "24.0.2",
+    "ts-node": "8.2.0",
+    "typescript": "3.5.1"
+  }
+}
